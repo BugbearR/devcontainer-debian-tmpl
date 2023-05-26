@@ -1,0 +1,6 @@
+{
+    "name": "debian-devcontainer-exp",
+    "dockerComposeFile": [ "docker-compose.yml" ],
+    "service": "workspace",
+    "workspaceFolder": "/workspace"
+}
