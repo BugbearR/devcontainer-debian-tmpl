@@ -6,7 +6,7 @@ services:
       dockerfile: Dockerfile
     volumes:
       - type: bind
-        source: .
+        source: ..
         target: /workspace
     tty: true
     stdin_open: true
