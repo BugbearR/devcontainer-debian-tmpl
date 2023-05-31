@@ -1,6 +1,17 @@
 {
-    "name": "debian-devcontainer-exp",
-    "dockerComposeFile": [ "docker-compose.yml" ],
-    "service": "workspace",
-    "workspaceFolder": "/workspace"
+  "name": "debian-devcontainer-exp",
+  "dockerComposeFile": [
+    "docker-compose.yml"
+  ],
+  "service": "workspace",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker",
+        "EditorConfig.EditorConfig",
+        "shardulm94.trailing-spaces"
+      ]
+    }
+  }
 }
